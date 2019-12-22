@@ -1,24 +1,37 @@
 [
     {
-        "name":"mullvad",
-        "description":"Mullvad"
-    }, {
-        "name":"nordvpn",
-        "description":"NordVPN"
-    }, {
-        "name":"pia",
-        "description":"PIA"
-    }, {
-        "name":"protonvpn",
-        "description":"ProtonVPN"
-    }, {
-        "name":"tunnelbear",
-        "description":"TunnelBear"
-    }, {
-        "name":"vyprvpn",
-        "description":"VyprVPN"
-    }, {
-        "name":"windscribe",
-        "description":"Windscribe"
+        "name": "mullvad",
+        "description": "Mullvad",
+        "inApp": "Mullvad"
+    },
+    {
+        "name": "nordvpn",
+        "description": "NordVPN",
+        "inApp": "NordVPN"
+    },
+    {
+        "name": "pia",
+        "description": "PIA",
+        "inApp": "PIA"
+    },
+    {
+        "name": "protonvpn",
+        "description": "ProtonVPN",
+        "inApp": "ProtonVPN"
+    },
+    {
+        "name": "tunnelbear",
+        "description": "TunnelBear",
+        "inApp": "TunnelBear"
+    },
+    {
+        "name": "vyprvpn",
+        "description": "VyprVPN",
+        "inApp": "VyprVPN"
+    },
+    {
+        "name": "windscribe",
+        "description": "Windscribe",
+        "inApp": "Windscribe"
     }
 ]
