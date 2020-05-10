@@ -1,5 +1,9 @@
 [
     {
+        "name": "hideme",
+        "description": "Hide.me"
+    },
+    {
         "name": "mullvad",
         "description": "Mullvad",
         "inApp": "Mullvad"
