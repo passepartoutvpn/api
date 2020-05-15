@@ -24,6 +24,10 @@
         "inApp": "ProtonVPN"
     },
     {
+        "name": "torguard",
+        "description": "TorGuard"
+    },
+    {
         "name": "tunnelbear",
         "description": "TunnelBear",
         "inApp": "TunnelBear"
