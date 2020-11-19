@@ -1,0 +1,49 @@
+[
+    {
+        "name": "csv",
+        "description": "Child Safe VPN"
+    },
+    {
+        "name": "hideme",
+        "description": "Hide.me"
+    },
+    {
+        "name": "mullvad",
+        "description": "Mullvad",
+        "inApp": "Mullvad"
+    },
+    {
+        "name": "nordvpn",
+        "description": "NordVPN",
+        "inApp": "NordVPN"
+    },
+    {
+        "name": "pia",
+        "description": "PIA",
+        "inApp": "PIA"
+    },
+    {
+        "name": "protonvpn",
+        "description": "ProtonVPN",
+        "inApp": "ProtonVPN"
+    },
+    {
+        "name": "torguard",
+        "description": "TorGuard"
+    },
+    {
+        "name": "tunnelbear",
+        "description": "TunnelBear",
+        "inApp": "TunnelBear"
+    },
+    {
+        "name": "vyprvpn",
+        "description": "VyprVPN",
+        "inApp": "VyprVPN"
+    },
+    {
+        "name": "windscribe",
+        "description": "Windscribe",
+        "inApp": "Windscribe"
+    }
+]
