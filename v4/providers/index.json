@@ -28,10 +28,6 @@
         "inApp": "ProtonVPN"
     },
     {
-        "name": "surfshark",
-        "description": "SurfShark"
-    },
-    {
         "name": "torguard",
         "description": "TorGuard"
     },
