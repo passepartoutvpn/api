@@ -18,6 +18,10 @@
         "inApp": "NordVPN"
     },
     {
+        "name": "oeck",
+        "description": "Oeck"
+    },
+    {
         "name": "pia",
         "description": "PIA",
         "inApp": "PIA"
