@@ -1,9 +1,5 @@
 [
     {
-        "name": "csv",
-        "description": "Child Safe VPN"
-    },
-    {
         "name": "hideme",
         "description": "Hide.me"
     },
