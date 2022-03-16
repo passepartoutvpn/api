@@ -1,0 +1,43 @@
+{
+    "metadata": [{
+        "name": "hideme",
+        "fullName": "Hide.me"
+    }, {
+        "name": "mullvad",
+        "fullName": "Mullvad",
+        "inApp": "Mullvad"
+    }, {
+        "name": "nordvpn",
+        "fullName": "NordVPN",
+        "inApp": "NordVPN"
+    }, {
+        "name": "oeck",
+        "fullName": "Oeck"
+    }, {
+        "name": "pia",
+        "fullName": "PIA",
+        "inApp": "PIA"
+    }, {
+        "name": "protonvpn",
+        "fullName": "ProtonVPN",
+        "inApp": "ProtonVPN"
+    }, {
+        "name": "surfshark",
+        "fullName": "SurfShark"
+    }, {
+        "name": "torguard",
+        "fullName": "TorGuard"
+    }, {
+        "name": "tunnelbear",
+        "fullName": "TunnelBear",
+        "inApp": "TunnelBear"
+    }, {
+        "name": "vyprvpn",
+        "fullName": "VyprVPN",
+        "inApp": "VyprVPN"
+    }, {
+        "name": "windscribe",
+        "fullName": "Windscribe",
+        "inApp": "Windscribe"
+    }]
+}
