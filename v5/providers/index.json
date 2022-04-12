@@ -6,13 +6,11 @@
     }, {
         "name": "mullvad",
         "fullName": "Mullvad",
-        "vpn": ["ovpn"],
-        "inApp": "Mullvad"
+        "vpn": ["ovpn"]
     }, {
         "name": "nordvpn",
         "fullName": "NordVPN",
-        "vpn": ["ovpn"],
-        "inApp": "NordVPN"
+        "vpn": ["ovpn"]
     }, {
         "name": "oeck",
         "fullName": "Oeck",
@@ -20,13 +18,11 @@
     }, {
         "name": "pia",
         "fullName": "PIA",
-        "vpn": ["ovpn"],
-        "inApp": "PIA"
+        "vpn": ["ovpn"]
     }, {
         "name": "protonvpn",
         "fullName": "ProtonVPN",
-        "vpn": ["ovpn"],
-        "inApp": "ProtonVPN"
+        "vpn": ["ovpn"]
     }, {
         "name": "surfshark",
         "fullName": "SurfShark",
@@ -38,17 +34,14 @@
     }, {
         "name": "tunnelbear",
         "fullName": "TunnelBear",
-        "vpn": ["ovpn"],
-        "inApp": "TunnelBear"
+        "vpn": ["ovpn"]
     }, {
         "name": "vyprvpn",
         "fullName": "VyprVPN",
-        "vpn": ["ovpn"],
-        "inApp": "VyprVPN"
+        "vpn": ["ovpn"]
     }, {
         "name": "windscribe",
         "fullName": "Windscribe",
-        "vpn": ["ovpn"],
-        "inApp": "Windscribe"
+        "vpn": ["ovpn"]
     }]
 }
