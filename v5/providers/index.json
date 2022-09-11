@@ -16,10 +16,6 @@
         "fullName": "Oeck",
         "vpn": ["ovpn"]
     }, {
-        "name": "pia",
-        "fullName": "PIA",
-        "vpn": ["ovpn"]
-    }, {
         "name": "protonvpn",
         "fullName": "ProtonVPN",
         "vpn": ["ovpn"]
