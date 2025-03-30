@@ -2,7 +2,7 @@
 //  fetch.js
 //  PassepartoutKit
 //
-//  Created by Davide De Rosa on 3/28/25.
+//  Created by Davide De Rosa on 3/30/25.
 //  Copyright (c) 2025 Davide De Rosa. All rights reserved.
 //
 //  https://github.com/passepartoutvpn
