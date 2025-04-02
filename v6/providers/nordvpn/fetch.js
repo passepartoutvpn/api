@@ -41,31 +41,22 @@ function getInfrastructure() {
     const regions = {};
     const servers = [];
 
-    for (const location of json.response.locations) {
-        const id = location.id;
-        const countryCode = location.country.code;
-        const region = {
-            code: location.country.code
-        };
-        if (location.country.city) {
-            region.area = location.country.city.name;
-        };
-        regions[id] = region;
-    }
-
-    for (const entry of json.response.servers) {
+    for (const entry of json.response) {
         const hostname = entry.hostname;
         const id = hostname.split(".")[0];
-        const entryRegions = entry.location_ids.map(id => regions[id]);
-        if (entryRegions.length == 0) {
+        const locations = entry.locations;
+        if (locations.length == 0) {
             continue;
         }
-        const [region, ...otherRegions] = entryRegions;
-        const code = region.code;
-        const extraCodes = otherRegions.map(r => r.code);
-        const area = region.area;
+        const [location, ...otherLocations] = locations;
+        if (!location.country) {
+            continue;
+        }
+        const code = location.country.code;
+        const extraCodes = otherLocations.map(loc => loc.country.code);
+        const area = location.country.city ? location.country.city.name : null;
 
-        const isDoubleVPN = entry.group_ids.includes(1);
+        const isDoubleVPN = entry.groups.includes(g => g.id == 1);
 
         const server = {
             serverId: id,
@@ -103,7 +94,7 @@ function getInfrastructure() {
         response: {
             presets: presets,
             servers: servers,
-            lastUpdate: json.lastModified
+            cache: json.cache
         }
     };
 }

@@ -111,7 +111,7 @@ function getInfrastructure() {
         response: {
             presets: presets,
             servers: servers,
-            lastUpdate: json.lastModified
+            cache: json.cache
         }
     };
 }
