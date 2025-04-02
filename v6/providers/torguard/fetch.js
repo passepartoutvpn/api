@@ -28,7 +28,7 @@ function getInfrastructure() {
     const openVPN = {
         moduleType: "OpenVPN",
         presetIds: {
-            basic: "basic",
+            basic: "default",
             strong: "strong"
         }
     };
