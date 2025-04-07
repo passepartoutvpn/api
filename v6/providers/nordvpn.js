@@ -24,7 +24,7 @@
 //
 
 function getInfrastructure() {
-    const json = getJSON("https://raw.githubusercontent.com/passepartoutvpn/api-cache/refs/heads/master/v6/providers/nordvpn/fetch.json");
+    const json = getJSON("https://passepartoutvpn.app/api-cache/v6/providers/nordvpn/fetch.json");
     if (json && json.response) {
         json.response.cache = json.cache;
     }
