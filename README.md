@@ -1,1 +1,1 @@
-Auto-generated from https://github.com/passepartoutvpn/api-source
+Auto-generated from https://github.com/passepartoutvpn/partout
