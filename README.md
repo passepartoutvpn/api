@@ -1,1 +1,1 @@
-Auto-generated from https://github.com/partout-io/partout
+Auto-generated from https://github.com/partout-io/passepartout
